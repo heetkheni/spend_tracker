@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("Expend Tracker"),
         centerTitle: true,
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.pink,
       ),
       body: Column(
         children: const [
@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
           Card(
             child: Text("LIST OF TRANSACTIONS"),
           ),
-          Text("Flutter is awsome"),
+          
         ],
       ),
     );
